@@ -61,6 +61,7 @@ strong{
     background: none;
     color: #1b4028;
     font-size: 18px;
+    border-radius: 15px 15px 0 0;
 }
 
 .navbar.navbar-default li a:hover,
@@ -145,6 +146,7 @@ h4,
 
 .titel-box {
     background-color: rgba(255,255,255,0.7);
+    border-radius: 20px 20px 0 0;
     padding: 10px;
 }
 
@@ -175,6 +177,7 @@ h4,
     padding: 10px 40px;
     background-color: #1b4028;
     border: none;
+    border-radius: 15px;
     font-size: 18px;
     color: #fff;
     margin: 0 10px;
@@ -278,6 +281,11 @@ footer li {
     margin: 7px 0;
 }
 
+.galerie-item img {
+    border-radius: 15px;
+}
+
+
 .teaser{
     text-align: center;
     margin: 15px 0;
@@ -339,6 +347,11 @@ footer li {
     padding: 0;
 }
 
+
+.preview_unternehmen img{
+    border-radius: 15px;
+}
+
 .preview_unternehmen p {
     font-size: 18px;
     margin: 0 0 30px 0;
@@ -357,6 +370,7 @@ footer li {
     margin: 0 10px;
     text-transform: uppercase;
     font-family: Oxygen-Bold, "Helvetica Neue", Arial, sans-serif;
+    border-radius: 15px;
 }
 
 .hellwig-btn-yellow:active,
@@ -396,6 +410,7 @@ footer ul {
 
 .navbar.navbar-default .dropdown-menu{
     padding: 0;
+    border-radius: 0 0 15px 15px;
     min-width: 300px;
     overflow-x: hidden;
 }
@@ -413,6 +428,10 @@ footer ul {
 .textblock_bottom h3 {
     font-size: 20px;
     font-family: Oxygen-Bold, "Helvetica Neue", Arial, sans-serif;
+}
+
+.teaser-bild-box img {
+    border-radius: 15px 15px 0 0;
 }
 
 .sortiment-container {
@@ -496,6 +515,7 @@ footer p {
     padding: 7px 30px;
     background-color: #1b4028;
     border: none;
+    border-radius: 10px;
     font-size: 18px;
     color: #fff;
     margin: 0 10px;
@@ -634,6 +654,10 @@ footer p {
     margin: 5px 0 25px;
 }
 
+.img-rounded {
+    border-radius: 15px;
+}
+
 .teaser-box img {
     margin: 20px 0 20px 0;
 }
@@ -652,6 +676,7 @@ footer p {
     font-size: 16px;
     padding: 6px 10px 10px 10px;
     background-color: #1b4028;
+    border-radius: 0 10px 10px 0;
     color: #fff;
     position: relative;
     left: -7px;
@@ -711,6 +736,7 @@ footer p {
     position: absolute;
     z-index: 99;
     background-color: #fff;
+    border-radius: 0 0 15px 15px;
     min-width: 235px;
     -webkit-box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.6);
     -moz-box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.6);
@@ -806,6 +832,7 @@ footer p {
     text-indent: -999px;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
     border: 4px solid #fff;
 }
 
