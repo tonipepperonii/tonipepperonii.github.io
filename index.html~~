@@ -41,15 +41,15 @@
 
 <body id="1" class="home">
 <div class="wrapper">
+    
 
 <section>
     <div class="container">
         <div class="row">
-        <div class="container-nav navbar container-fluid">
+        <div class="container-nav">
         		<div class="main-logo">
                 <a href="http://www.ole-sperlich.de"></a>
             </div>
-            <div class="container-nav">
             <ul class="nav navbar-nav navbar-right">
                <li><a class="active" href="http://www.ole-sperlich.de/">Home</a></li><li><a class="" href="http://www.baumschule-hellwig.de/ueber-hellwig/">Über Hellwig</a></li>
         			<li class="dropdown">
@@ -69,9 +69,8 @@
       		</ul>
             <div class="clearfix"></div>
        </div> <!-- container-nav -->
-       </div> <!-- row (einrückung falsch )-->
-    </div> <!-- row -->
-    </div> <!-- container -->
+       </div> <!-- row (einrückung falsch )
+    </div>
 </section>
 
     <section>

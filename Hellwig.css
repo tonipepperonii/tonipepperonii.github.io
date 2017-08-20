@@ -36,14 +36,16 @@ strong{
     top: 30px;
 }
 
-.logo-container {
-    float: left;
-}
 
 .container-nav {
-    position: absolute;
-    right: 30px;
+	height: 5em;
+    position: static;
+    border-bottom-color: grey;
+    border-bottom: 20px;
     bottom: 0;
+    box-shadow: 0 10px 40px grey;
+    margin-right: auto;
+    margin-left: auto;
 }
 .navbar.navbar-default {
     background-color: #fff;
@@ -54,6 +56,15 @@ strong{
     margin: 0;
 }
 
+.main-logo {
+	float: left;
+	width: 14%;
+	height: 100%;
+	position: relative;
+	background: url("http://www.baumschule-hellwig.de/site/templates/images/hellwig-logo.png" ) no-repeat scroll left center transparent;
+	background-size: auto 200%;
+	z-index: 200;
+}
 
 
 .navbar.navbar-default li a{
@@ -644,8 +655,12 @@ footer p {
     font-size: 16px;
 }
 
+.navbar-default {
+	height: 5.3em;
+	width: 1170px;
+}
 #hauptnav .navbar-form.navbar-right {
-    margin: 18px 0;
+    padding-bottomm: 18px;
 }
 
 #search-button {
@@ -970,6 +985,10 @@ h4,.h4{
 .carousel.slide img {
     margin: auto;
     border-top: 8px solid #f6c200;
+}
+
+#carousel-example-generic {
+	padding-top: 4em;
 }
 
 div[id*="tooltip"] .tooltip-arrow,
