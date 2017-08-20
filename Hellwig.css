@@ -39,20 +39,16 @@ strong{
 
 .container-nav {
 	height: 5em;
-    position: static;
+    position: relative;
     border-bottom-color: grey;
-    border-bottom: 20px;
-    bottom: 0;
+    top: 0;
     box-shadow: 0 10px 40px grey;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 0;
 }
 .navbar.navbar-default {
-    background-color: #fff;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-radius: 0;
+    position: fixed;
     margin: 0;
 }
 
@@ -656,7 +652,6 @@ footer p {
 }
 
 .navbar-default {
-	height: 5.3em;
 	width: 1170px;
 }
 #hauptnav .navbar-form.navbar-right {
