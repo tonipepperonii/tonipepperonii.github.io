@@ -1,28 +1,58 @@
- 
-@media (max-width: 1170px) {
+@media screen and (max-width: 1170px) {
     .logo-container {
         max-width: 125px;
     }
+
     .container-nav {
-        position: relative !important;
+        position: absolute !important;
+        width: 100%;
         right: 0;
         bottom: 0;
         left: 0;
     }
-    .navbar-right{
-        float: left!important;
+
+    .navbar-right {
+        float: left !important;
+    }
+
+    /*Make dropdown links appear inline*/
+    .container-nav ul {
+        position: static;
+        display: none;
+    }
+
+    /*Make all menu links full width*/
+    .container-nav ul li, .container-nav li a, .nav {
+        width: 100%;
+    }
+
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+
+    .navbar-form {
+        display: none;
+    }
+
+    .navbar.container-nav li a:active,
+    .navbar.container-nav > .open > a,
+    .navbar.container-nav li a.active,
+    .navbar.container-nav li a.active:active,
+    .container-nav > .open > a.active {
+        background-color: #fff;
+        color: #1b4028;
     }
 }
 
 
-
 @media (max-width: 969px) {
     .sortiment-galerie {
-        -moz-column-count:    2;
+        -moz-column-count: 2;
         -webkit-column-count: 2;
-        column-count:         2;
+        column-count: 2;
     }
-
+/*
     .container-nav {
         position: relative !important;
         right: 0;
@@ -34,8 +64,8 @@
         margin: 3px 0 0 0;
     }
 
-    .navbar-right{
-        float: left!important;
+    .navbar-right {
+        float: left !important;
     }
 
     .navbar.navbar-default li a {
@@ -47,22 +77,19 @@
         border-radius: 10px 10px 0 0;
     }
 
-    #hauptnav{
+    #hauptnav {
         padding: 0;
-    }
+    }*/
 
     .logo-container {
         max-width: 100px;
     }
 
-
-
-
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    .teaser-hover-box{
+    .teaser-hover-box {
         height: 50%;
         top: 50%;
     }
@@ -71,7 +98,6 @@
         min-width: 100%;
     }
 
-
     .kategorie-titel-container {
         min-height: inherit;
     }
@@ -79,7 +105,7 @@
     .privatverkauf h4 {
         text-align: left;
     }
-
+/*
     .container-nav {
         position: absolute !important;
         right: 0;
@@ -109,7 +135,7 @@
         padding: 10px 10px;
         position: relative;
     }
-
+*/
     #search-button {
         position: absolute;
         left: auto;
@@ -147,7 +173,7 @@
         margin: 0;
     }
 
-    .hellwig-btn-yellow.right_align{
+    .hellwig-btn-yellow.right_align {
         float: left !important;
     }
 
@@ -166,11 +192,13 @@
     h4, .h4 {
         font-size: 14px;
     }
+
     .ueber-uns-btn {
         width: 100%;
         margin: 5px 0;
         padding: 5px 0;
     }
+
     .sortier-button-container.center-block {
         left: 0;
         display: block;
@@ -184,12 +212,12 @@
         left: 0;
     }
 
-    .teaser-hover-box h2{
+    .teaser-hover-box h2 {
         margin: 0 0 10px 0;
         font-size: 14px;
     }
 
-    .teaser-hover-box{
+    .teaser-hover-box {
         font-size: 14px;
     }
 
@@ -216,16 +244,13 @@
         padding: 15px;
     }
 
-
-
-
-    }
+}
 
 @media (max-width: 400px) {
     .sortiment-galerie {
-        -moz-column-count:    1;
+        -moz-column-count: 1;
         -webkit-column-count: 1;
-        column-count:         1;
+        column-count: 1;
     }
 }
 

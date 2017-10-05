@@ -1580,7 +1580,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
+.container, container-nav {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -4006,7 +4006,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .nav-divider {
   height: 1px;
   margin: 9px 0;
-  overflow: hidden;
+ /*overflow: hidden;*/
   background-color: #e5e5e5;
 }
 .nav > li > a > img {
