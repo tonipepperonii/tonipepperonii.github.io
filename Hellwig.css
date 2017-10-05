@@ -39,17 +39,14 @@ strong{
 
 .container-nav {
 	height: 5em;
-    position: relative;
-    border-bottom-color: grey;
+	width: 1170px;
+    position: fixed;
     top: 0;
-    box-shadow: 0 10px 40px grey;
+    box-shadow: 0 0 10px grey;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0;
-}
-.navbar.navbar-default {
-    position: fixed;
-    margin: 0;
+    margin-top: 0em;
+    margin-bottom: 0;
 }
 
 .main-logo {
@@ -63,28 +60,32 @@ strong{
 }
 
 
-.navbar.navbar-default li a{
+.container-nav li a{
     padding: 25px 20px;
     background: none;
     color: #1b4028;
     font-size: 18px;
 }
 
-.navbar.navbar-default li a:hover,
-.navbar.navbar-default li a:active,
-.navbar.navbar-default li a:focus,
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar.navbar-default li a.active,
-.navbar.navbar-default li a.active:hover,
-.navbar.navbar-default li a.active:active,
-.navbar.navbar-default li a.active:focus,
-.navbar-default .navbar-nav > .open > a.active,
-.navbar-default .navbar-nav > .open > a.active:hover,
-.navbar-default .navbar-nav > .open > a.active:focus{
+.navbar.container-nav li a:hover,
+.navbar.container-nav li a:active,
+.navbar.container-nav li a:focus,
+.navbar.container-nav > .open > a,
+.navbar.container-nav .navbar-nav > .open > a:hover,
+.navbar.container-nav .navbar-nav > .open > a:focus,
+.navbar.container-nav li a.active,
+.navbar.container-nav li a.active:hover,
+.navbar.container-nav li a.active:active,
+.navbar.container-nav li a.active:focus,
+.container-nav > .open > a.active,
+.container-nav > .open > a.active:hover,
+.container-nav > .open > a.active:focus{
     background-color: #1b4028;
     color: #fff;
+}
+
+.nav {
+	list-style: none;
 }
 
 h2, .h2 {
@@ -307,8 +308,7 @@ footer li {
 
 
 
-.teaser:hover .teaser-hover-box,
-.teaser:focus .teaser-hover-box{
+.teaser:hover .teaser-hover-box{
     display: block;
 }
 
@@ -401,13 +401,13 @@ footer ul {
     left:0 !important;
 }
 
-.navbar.navbar-default .dropdown-menu{
+.container-nav .dropdown-menu{
     padding: 0;
     min-width: 300px;
     overflow-x: hidden;
 }
 
-.navbar.navbar-default .dropdown-menu li a {
+.container-nav .dropdown-menu li a {
     padding: 15px;
     border-radius: 0;
 }
@@ -651,9 +651,6 @@ footer p {
     font-size: 16px;
 }
 
-.navbar-default {
-	width: 1170px;
-}
 #hauptnav .navbar-form.navbar-right {
     padding-bottomm: 18px;
 }

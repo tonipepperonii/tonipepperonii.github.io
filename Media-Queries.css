@@ -61,12 +61,6 @@
 }
 
 @media (max-width: 768px){
-    .privatverkauf {
-        position: relative;
-        left: 0;
-        top: 0;
-        right: auto;
-    }
 
     .teaser-hover-box{
         height: 50%;
@@ -102,7 +96,7 @@
         margin: 0;
     }
 
-    .navbar.navbar-default li a {
+    .container-nav li a {
         padding: 10px;
         background: none;
         color: #1b4028;
