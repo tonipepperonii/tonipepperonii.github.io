@@ -5,6 +5,7 @@
 
     .container-nav {
         position: absolute !important;
+        margin: 0;
         width: 100%;
         right: 0;
         bottom: 0;
@@ -89,6 +90,9 @@
 
 @media (max-width: 768px) {
 
+    .container {
+        margin: 0;
+    }
     .teaser-hover-box {
         height: 50%;
         top: 50%;
