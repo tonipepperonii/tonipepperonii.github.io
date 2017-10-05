@@ -92,6 +92,7 @@
 
     .container {
         margin: 0;
+        width: 100%;
     }
     .teaser-hover-box {
         height: 50%;
