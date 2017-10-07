@@ -27,6 +27,10 @@
         width: 100%;
     }
 
+    .main-logo {
+        background-size: auto 110%;
+    }
+
     /*Display 'show menu' link*/
     .show-menu {
         display:block;
@@ -94,6 +98,7 @@
         margin: 0;
         width: 100%;
     }
+
     .teaser-hover-box {
         height: 50%;
         top: 50%;

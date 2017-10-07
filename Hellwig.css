@@ -83,7 +83,6 @@ input[type=checkbox]:checked ~ .nav {
     border-bottom: solid 1px lightgrey;
     /*background: #1b4028;*/
     text-align: right;
-    padding: 25px 20px;
     height: 100%;
     display: none;
 }
@@ -674,13 +673,20 @@ footer p {
 
 #search-button {
     font-size: 16px;
-    padding: 6px 10px 10px 10px;
+    padding: 7px 10px 10px 10px;
     background-color: #1b4028;
     color: #fff;
     position: relative;
     left: -7px;
     border: 1px solid #1b4028;
-    top: 0px;
+    top: 1px;
+}
+
+.fa-bars {
+    color: #1b4028;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 #hauptnav .navbar-form.navbar-right {
