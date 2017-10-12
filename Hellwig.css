@@ -28,6 +28,48 @@ strong {
     font-family: Oxygen-Bold, "Helvetica Neue", Arial, sans-serif;
 }
 
+/*animation element sliding left*/
+
+.animation-element.slide-left {
+    opacity: 0;
+    -moz-transition: all 700ms linear;
+    -webkit-transition: all 700ms linear;
+    -o-transition: all 700ms linear;
+    transition: all 700ms linear;
+    -moz-transform: translate3d(-10px, 0px, 0px);
+    -webkit-transform: translate3d(-10px, 0px, 0px);
+    -o-transform: translate(-10px, 0px);
+    -ms-transform: translate(-10px, 0px);
+    transform: translate3d(-10px, 0px, 0px);
+}
+
+/*animation element sliding right*/
+
+.animation-element.slide-right {
+    opacity: 0;
+    -moz-transition: all 750ms linear;
+    -webkit-transition: all 750ms linear;
+    -o-transition: all 750ms linear;
+    transition: all 750ms linear;
+    -moz-transform: translate3d(10px, 0px, 0px);
+    -webkit-transform: translate3d(10px, 0px, 0px);
+    -o-transform: translate(10px, 0px);
+    -ms-transform: translate(10px, 0px);
+    transform: translate3d(10px, 0px, 0px);
+}
+
+.animation-element.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+
+
 .privatverkauf {
     position: absolute;
     right: 30px;
