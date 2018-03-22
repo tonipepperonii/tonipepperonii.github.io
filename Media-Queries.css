@@ -1,0 +1,268 @@
+@media screen and (max-width: 1170px) {
+    .logo-container {
+        max-width: 125px;
+    }
+
+    .container-nav {
+        position: absolute !important;
+        margin: 0;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .navbar-right {
+        float: left !important;
+    }
+
+    /*Make dropdown links appear inline*/
+    .container-nav ul {
+        position: static;
+        display: none;
+    }
+
+    /*Make all menu links full width*/
+    .container-nav ul li, .container-nav li a, .nav {
+        width: 100%;
+    }
+
+    .main-logo {
+        background-size: auto 110%;
+    }
+
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+
+    .navbar-form {
+        display: none;
+    }
+
+    .navbar.container-nav li a:active,
+    .navbar.container-nav > .open > a,
+    .navbar.container-nav li a.active,
+    .navbar.container-nav li a.active:active,
+    .container-nav > .open > a.active {
+        background-color: #fff;
+        color: #1b4028;
+    }
+}
+
+
+@media (max-width: 969px) {
+    .sortiment-galerie {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+/*
+    .container-nav {
+        position: relative !important;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    #hauptnav .navbar-form.navbar-right {
+        margin: 3px 0 0 0;
+    }
+
+    .navbar-right {
+        float: left !important;
+    }
+
+    .navbar.navbar-default li a {
+        padding: 10px 6px;
+        background: none;
+        background-color: rgba(0, 0, 0, 0);
+        color: #1b4028;
+        font-size: 16px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #hauptnav {
+        padding: 0;
+    }*/
+
+    .logo-container {
+        max-width: 100px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+
+    .teaser-hover-box {
+        height: 50%;
+        top: 50%;
+    }
+
+    .produkt table {
+        min-width: 100%;
+    }
+
+    .kategorie-titel-container {
+        min-height: inherit;
+    }
+
+    .privatverkauf h4 {
+        text-align: left;
+    }
+/*
+    .container-nav {
+        position: absolute !important;
+        right: 0;
+        bottom: auto;
+        top: 50px;
+        width: 100%;
+        max-height: 250px;
+        overflow: auto;
+        background-color: #fff;
+        z-index: 100;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .container-nav li a {
+        padding: 10px;
+        background: none;
+        color: #1b4028;
+        font-size: 14px;
+        border-radius: 0;
+    }
+
+    #hauptnav .navbar-form.navbar-right {
+        margin: 0;
+        padding: 10px 10px;
+        position: relative;
+    }
+*/
+    #search-button {
+        position: absolute;
+        left: auto;
+        top: 10px;
+        right: -3px;
+    }
+
+    .btn-container .hellwig-btn-yellow {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+
+    .startseiten_teaser .hellwig-btn-yellow {
+        margin: 0;
+    }
+
+    .startseiten_teaser .btn-container {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .home .upper_yellow_container {
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    .home .upper_yellow_container.katalog-teaser {
+        padding: 15px;
+    }
+
+    .hellwig-btn-yellow {
+        padding: 3px 25px;
+        font-size: 18px;
+        color: #1b4028;
+        margin: 0;
+    }
+
+    .hellwig-btn-yellow.right_align {
+        float: left !important;
+    }
+
+    .katalog-teaser img {
+        margin: 0 0 15px 0;
+    }
+
+    .presse-teaser img {
+        max-width: 220px;
+    }
+
+    h2, .h2 {
+        font-size: 18px;
+    }
+
+    h4, .h4 {
+        font-size: 14px;
+    }
+
+    .ueber-uns-btn {
+        width: 100%;
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+
+    .sortier-button-container.center-block {
+        left: 0;
+        display: block;
+        justify-content: inherit;
+        margin: 0;
+    }
+
+    .logo-xs {
+        max-width: 54px;
+        position: absolute;
+        left: 0;
+    }
+
+    .teaser-hover-box h2 {
+        margin: 0 0 10px 0;
+        font-size: 14px;
+    }
+
+    .teaser-hover-box {
+        font-size: 14px;
+    }
+
+    .sortier-button-container.center-block .hellwig-btn {
+        padding: 5px 0;
+        background-color: #1b4028;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        color: #fff;
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .produkt .padding-30 {
+        padding: 0;
+    }
+
+    .pagination_produkt a {
+        padding: 6px 12px;
+    }
+
+    .kontakt_text {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .sortiment-galerie {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
+
